@@ -15,7 +15,7 @@ public class Fecha {
     //Dejo el scanner aqui para no instanciarlo durante todo el programa
     static Scanner entrada = new Scanner(System.in);
 
-    public static int anioAhora() { //Pide el año actual y valida que solo se introduzca el 2022
+    public static double anioAhora() { //Pide el año actual y valida que solo se introduzca el 2022
         int anioHoy = 0;
         do {
             System.out.print("Escribe el año actual:");
@@ -90,7 +90,7 @@ public class Fecha {
     }
 
     public static void main(String[] args) {//recupero los datos y los printeo
-        int anioHoy;
+        double anioHoy;
         String mesHoy;
         int diaHoy;
         anioHoy = anioAhora();
